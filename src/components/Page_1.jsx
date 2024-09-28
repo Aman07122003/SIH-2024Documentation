@@ -21,11 +21,11 @@ const Page_1 = () => {
         <div className='flex flex-col md:flex-row items-center justify-between md:mt-54 mt-36 md:justify-center h-[83vh] w-full  md:mt-20 md:ml-5'>
             <div className='  h-full order-2 md:order-1 md:ml-2 md:w-2/3 flex justify-center items-center'>
                <div className='md:w-full  md:h-3/5 flex gap-y-5 flex-col justify-center items-center md:mt-7'>
-                    <div className='flex items-start justify-start md:w-full  md:mt-0'>
+                    <div className='flex items-start justify-start md:w-full mt-3 md:mt-0'>
                       <h1 className='text-3xl md:text-4xl font-bold md:font-extrabold font-mono'>TITLE PAGE</h1>
                     </div>
                     <div className='flex md:w-full  justify-start items-start mt-6 h-full'>
-                      <div className='block md:hidden text-lg w-full'>
+                      <div className='block md:hidden text-base w-full'>
                         <ul className="list-disc pl-5 w-full">
                             <li className='py-2'><span className='font-semibold'>Problem Statement ID -</span> 1762</li>
                             <li className='py-2'><span className='font-semibold'>A National Philatelic Platform</span></li>
@@ -66,7 +66,7 @@ const Page_1 = () => {
             </div>
             
         </div>
-        <div className=' w-full flex justify-center items-start mt-16 md:mt-2'>
+        <div className=' w-full flex justify-center items-start mt-24 md:mt-2'>
           <h1 className='text-2xl font-extrabold font-mono'>Featured Slides</h1>
         </div>
       </div>
