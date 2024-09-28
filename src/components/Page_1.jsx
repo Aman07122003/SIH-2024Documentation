@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Page_2 from './Page_2';
 import Page_3 from './Page_3';
 import FlowDiagram from './FlowDiagram'; 
-
+import PdfViewer from './PdfViewer';
 
 
 const Page_1 = () => {

@@ -12,6 +12,7 @@ import Technical_Approach from './components/Featured_Slides/Technical_Approach'
 import Contact_Us from './components/Contact_Us';
 import Diagram from './components/Featured_Slides/Diagram';
 import FlowDiagram from './components/FlowDiagram';
+import PdfViewer from './components/PdfViewer';
 
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
       <Route path="/contact" element={<Contact_Us />} />
       <Route path="/Diagram" element={<Diagram/>} />
       <Route path="/FlowDiagram" element={<FlowDiagram/>} />
+      <Route path="/PdfViewer" element={<PdfViewer/>} />
 
       
     </Routes>
