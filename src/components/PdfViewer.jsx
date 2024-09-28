@@ -13,8 +13,18 @@ function PdfViewer() {
     return (
         <>
             <div className='h-[100vh] w-full flex flex-col'>
-                
-                <div className='h-[98vh] mt-2 bg-slate-100 flex justify-center items-center'>
+                <div className='w-full flex justify-center items-center mt-2 flex flex-col'>
+                    <h1 className='text-3xl font-bold font-mono'>
+                        Presentation
+                    </h1>
+                    <div className="breadcrumbs text-md flex justify-center  h-10 w-full text-blue-600 font-semibold">
+                        <ul>
+                            <li><a onClick={() => handleClick(' ')}>Home</a></li>
+                            <li><a>PDF</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='h-[90vh] mt-5 flex justify-center items-center'>
                     <div className='w-full h-full overflow-auto'>
                         <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
                             <Viewer fileUrl={Pdf} plugins={[defaultLayoutPluginInstance]} />
