@@ -17,7 +17,7 @@ const Section_3 = () => {
            <div className='h-2/5 justify-start items-center flex flex-col mt-5'>
               <div className="card card-bordered border-black bg-slate-50 shadow-lg w-5/6 h-3/4 mt-5 ">
                 <div className="h-full w-full flex justify-center items-center flex-col gap-y-3">
-                    <h2 className="card-title text-lg">PROJECT ARCHITECTURE</h2>
+                    <h2 className="card-title text-lg">PROJECT ARCHITECTUREE</h2>
                     <div className="card-actions justify-center">
                     <button onClick={() => handleClick('Diagram')} className=" btn btn-neutral">View Diagram</button>  
                     </div>
