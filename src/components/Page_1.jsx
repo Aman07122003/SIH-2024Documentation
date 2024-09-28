@@ -5,14 +5,16 @@ import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 import Page_2 from './Page_2';
 import Page_3 from './Page_3';
+import PdfViewer from './PdfViewer';
+
 
 
 const Page_1 = () => {
     const navigate = useNavigate();
-
+ 
     const handleClick = (page) => {
         navigate(`/${page}`)
-    }
+    };
 
   return (
     <>
@@ -50,9 +52,12 @@ const Page_1 = () => {
                       </div>
                     </div>
                     <div className='h-16 w-full flex md:justify-start justify-center items-center md:gap-x-5 gap-x-3 mt-4'>
-                        <button className="bg-orange-100 hover:bg-orange-500 text-orange-500 hover:text-white rounded-2xl font-bold py-3 px-5 rounded">
-                            See PPT
-                        </button>
+                        <div>
+                          <button onClick={() => handleClick('PdfViewer')} className="bg-orange-100 hover:bg-orange-500 text-orange-500 hover:text-white rounded-2xl font-bold py-3 px-5 rounded">
+                              See PPT
+                          </button>
+                          
+                        </div>
 
                         <button onClick={() => handleClick('contact')} className="bg-green-100 hover:bg-green-500 text-green-600 hover:text-white rounded-2xl font-bold py-3 px-5 rounded">
                             Contact Us
