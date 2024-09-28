@@ -13,7 +13,6 @@ const Diagram = () => {
         <img 
           src={Flowchart_4} 
           alt="High Level System Design Flowchart" 
-          className="max-w-full max-h-full object-contain"
         />
       </div>
     </div>
