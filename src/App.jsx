@@ -15,7 +15,7 @@ import Page_4 from './components/Page_4';
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Page_1 />} />
+      <Route path="/SIH-2024Documentation" element={<Page_1 />} />
       <Route path="/Page_2" element={<Page_2 />} />
       <Route path="/Page_3" element={<Page_3 />} />
       <Route path="/Idea_Title" element={<Idea_Title />} />

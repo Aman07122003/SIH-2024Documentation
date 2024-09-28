@@ -1,15 +1,19 @@
 {
   "name": "project-documentation",
-  "private": true,
+  "homepage": "https://Aman07122003.github.io/SIH-2024Documentation",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"
@@ -29,6 +33,5 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.12",
     "vite": "^5.4.1"
-  },
-  "homepage": "https://Aman07122003.github.io/SIH-2024Documentation"
+  }
 }
