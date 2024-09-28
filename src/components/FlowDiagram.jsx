@@ -7,7 +7,7 @@ const FlowDiagram = () => {
         <div className='flex justify-center text-2xl font-mono font-bold mt-0'>
             Technical Flow Diagram
         </div>
-        <div className='mt-16'>
+        <div className='mt-16 flex justify-center'>
             <img src={SS} alt="" />
         </div>
     </div>

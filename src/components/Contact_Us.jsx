@@ -1,16 +1,13 @@
 import React from 'react';
-import Navbar from './Navbar';
-
+import Navbar from './navbar';
 import Email from '../assets/Email.png';
 import Linkedin from '../assets/Linkedin.webp';
 import Githubb from '../assets/Githubb.png';
 import Footer from './Footer';
 import { useNavigate } from 'react-router-dom';
-import Page_1 from './Page_1';
 import Aman from '../assets/Aman.jpeg'
 import Stuti from '../assets/Stuti.jpg'
 import Satyam from '../assets/Satyam.png'
-import Abhishek from '../assets/Abhishek.png'
 import Arif from '../assets/Arif.png'
 import Khushi from '../assets/Khushi.png'
 import Abhi from '../assets/Abhi.png'
