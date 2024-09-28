@@ -10,8 +10,8 @@ const Diagram = () => {
                     HIGH LEVEL SYSTEM DESIGN
                 </h1>
             </div>
-            <div className=''>
-                <img src={Flowchart_4} alt=""  className='flex justify-center items-center'/>
+            <div>
+                <img src={Flowchart_4} alt=""/>
             </div>
       </div>
     </>
