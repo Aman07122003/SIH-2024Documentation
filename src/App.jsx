@@ -10,7 +10,7 @@ import Project_Architecture from './components/Featured_Slides/Project_Architect
 import ResearchReference from './components/Featured_Slides/ResearchReference';
 import Technical_Approach from './components/Featured_Slides/Technical_Approach';
 import Contact_Us from './components/Contact_Us';
-import Page_4 from './components/Page_4';
+
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
       <Route path="/ResearchReference" element={<ResearchReference />} />
       <Route path="/Technical_Approach" element={<Technical_Approach />} />
       <Route path="/contact" element={<Contact_Us />} />
-      <Route path="/Page_4" element={<Page_4 />} />
+      
     </Routes>
   );
 };

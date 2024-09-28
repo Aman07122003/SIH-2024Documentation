@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 import Page_2 from './Page_2';
 import Page_3 from './Page_3';
-import Page_4 from './Page_4';
+
 
 const Page_1 = () => {
     const navigate = useNavigate();
@@ -75,9 +75,6 @@ const Page_1 = () => {
       </div>
       <div>
         <Page_3/>
-      </div>
-      <div>
-        <Page_4/>
       </div>
       <div className='h-20 w-full flex justify-center items-end'>
         <Footer/>
