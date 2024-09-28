@@ -17,11 +17,6 @@ const PdfViewer = () => {
                 <div className='w-full h-full flex justify-center '>
                     <iframe src={Pdf} width="80%" height="100%" title="PDF Viewer" />
                 </div>
-                <div className='h-16 w-36 flex justify-center items-center rounded-full block md:hidden bg-blue-600 mb-5'>
-                    <a href={Pdf} download className="text-white font-extrabold">
-                        Download PDF
-                    </a>
-                </div>
             </div>
         </div>
     );
