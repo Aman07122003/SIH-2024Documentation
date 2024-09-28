@@ -8,7 +8,7 @@ const Project_Architecture = () => {
   return (
      <>
        <div>
-          <div className='h-14 w-full flex justify-center text-3xl font-mono font-bold mt-3'>
+          <div className='h-14 w-full flex justify-center md:text-3xl text-xl font-mono font-bold mt-3'>
               Project_Architecture
           </div>
           <div>

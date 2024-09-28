@@ -26,7 +26,7 @@ const Idea_Title = () => {
           </div>
           {/* Mid Section */}
           <div className='p-4 mt-10 md:ml-5 md:mt-0'>
-            <header className='h-16 w-full flex justify-center items-start text-3xl font-mono font-extrabold'>
+            <header className='h-16 w-full flex justify-center items-start md:text-3xl text-xl font-mono font-extrabold'>
               <h1>
                 IDEA TITLE
               </h1>

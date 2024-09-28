@@ -24,7 +24,7 @@ const ImpactBenifits = () => {
           </div>
           {/* Mid Section */}
           <div className='p-4 mt-10 md:ml-5 md:mt-0 w-full'>
-            <header className='h-16  flex justify-center items-start text-3xl font-mono font-extrabold'>
+            <header className='h-16  flex justify-center items-start md:text-3xl text-xl font-mono font-extrabold'>
               <h1>
                 IMPACT AND BENEFITS
               </h1>
