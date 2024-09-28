@@ -13,6 +13,7 @@ import Satyam from '../assets/Satyam.png'
 import Abhishek from '../assets/Abhishek.png'
 import Arif from '../assets/Arif.png'
 import Khushi from '../assets/Khushi.png'
+import Abhi from '../assets/Abhi.png'
 
 
 const Contact_Us = () => {
@@ -131,7 +132,7 @@ const Contact_Us = () => {
             <div className="card bg-base-100 w-72 shadow-xl">
               <figure className="pt-6">
                 <img
-                  src={Abhishek}
+                  src={Abhi}
                   alt=""
                   className='w-44 object-cover rounded-full'
                 />
