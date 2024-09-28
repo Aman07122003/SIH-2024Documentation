@@ -37,7 +37,7 @@ const Page_1 = () => {
                           </ul>
                       </div>
 
-                      <div className='hidden md:block text-gray-700 h-full  text-xl'>
+                      <div className='hidden md:block text-gray-700 text-base h-full  text-xl'>
                         <ul className="list-disc pl-5">
                         <li className='py-2'><span className='font-semibold'>Problem Statement ID -</span> 1762</li>
                           <li className='py-2'><span className='font-semibold'>Problem Statement Title -</span> India Philately Hub: A National Philatelic Platform</li>
