@@ -12,11 +12,11 @@ const Navbar = () => {
     }
   return (
     <header>
-          <nav className="navbar h-[98px] bg-white fixed z-50 flex justify-between">
+          <nav className="navbar h-[70px] bg-white fixed z-50 flex justify-between">
             <button onClick={() => handleClick(' ')} className='cursor-pointer ml-2'>
                 <div className=" flex-col">
                     <img src={Ninja_coder} alt="" 
-                    className='w-12 ml-8'/>
+                    className='w-10 ml-8 mt-2'/>
                     HexaBruteForce
                 </div>
             </button>
@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
 
             <div className=''>
-                <img src={SIH} alt="Smart India Hackathon Logo" className='w-36'/>
+                <img src={SIH} alt="Smart India Hackathon Logo" className='w-32 md:w-36'/>
             </div>
           </nav>
           
