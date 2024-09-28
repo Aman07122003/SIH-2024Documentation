@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 import Page_2 from './Page_2';
 import Page_3 from './Page_3';
-import PdfViewer from './PdfViewer';
+import FlowDiagram from './FlowDiagram'; 
 
 
 
@@ -81,6 +81,7 @@ const Page_1 = () => {
       <div>
         <Page_3/>
       </div>
+      <FlowDiagram/>
       <div className='h-20 w-full flex justify-center items-end'>
         <Footer/>
       </div>

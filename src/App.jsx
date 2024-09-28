@@ -10,8 +10,8 @@ import Project_Architecture from './components/Featured_Slides/Project_Architect
 import ResearchReference from './components/Featured_Slides/ResearchReference';
 import Technical_Approach from './components/Featured_Slides/Technical_Approach';
 import Contact_Us from './components/Contact_Us';
-import PdfViewer from './components/PdfViewer';
 import Diagram from './components/Featured_Slides/Diagram';
+import FlowDiagram from './components/FlowDiagram';
 
 
 const App = () => {
@@ -27,8 +27,9 @@ const App = () => {
       <Route path="/ResearchReference" element={<ResearchReference />} />
       <Route path="/Technical_Approach" element={<Technical_Approach />} />
       <Route path="/contact" element={<Contact_Us />} />
-      <Route path="/Pdfviewer" element={<PdfViewer />} />
       <Route path="/Diagram" element={<Diagram/>} />
+      <Route path="/FlowDiagram" element={<FlowDiagram/>} />
+
       
     </Routes>
   );

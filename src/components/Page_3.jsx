@@ -3,7 +3,7 @@ import React from 'react';
 const Page_3 = () => {
   return (
     <>
-      <div className='h-screen w-full mt-16 md:mt-2'>
+      <div className='h-[100vh] w-full mt-16 md:mt-2'>
         <div className='h-10 w-full flex justify-center items-center'>
           <h1 className='text-2xl font-extrabold font-mono'>
             Video Explanation
@@ -13,7 +13,7 @@ const Page_3 = () => {
         {/* YouTube iframe */}
         <div className='flex justify-center mt-10 md:h-4/6 h-3/6 w-full '>
           <iframe 
-              className='h-full md:h-full w-11/12 md:w-9/12 rounded-xl' 
+              className='w-11/12 md:w-9/12 rounded-xl' 
               src="https://www.youtube.com/embed/-IhCM2YfAWI" 
               title="YouTube video player" 
               style={{ border: 'none' }} 
@@ -21,8 +21,8 @@ const Page_3 = () => {
               allowFullScreen 
             ></iframe>
         </div>
-        <div className=' md:px-0 text-center  font-semibold bg-slate-50 mt-10 w-full flex items-center justify-center'>
-          <p className='md:text-lg w-3/4 md:w-11/12'>
+        <div className=' md:px-0 text-center  font-semibold mt-10 w-full flex items-center justify-center'>
+          <p className='md:text-sm w-3/4 md:w-11/12'>
             In this video, I walk through the detailed concept of our project for the Smart India Hackathon 2024. 
             I explain the core idea, the problem we aim to solve, and our innovative solution.
           </p>
