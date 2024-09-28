@@ -58,6 +58,16 @@ const Structure = () => {
                     </li>
                     <li>
                         <details>
+                        <summary className='font-semibold'>Feasibility Viability</summary>
+                        <ul>
+                            <li><a>Feasibility of the Idea</a></li>
+                            <li><a>Potential Challenges</a></li>
+                            <li><a href=""> Overcoming These Challenges</a></li>
+                        </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
                         <summary className='font-semibold'>Impact & Benefits</summary>
                         <ul>
                             <li><a>Potential Impact</a></li>
