@@ -64,7 +64,7 @@ const Page_2 = () => {
                 <h2 className="card-title font-extrabold">IMPACT & BENIFITS</h2>
                 <ul className="list-disc pl-5">
                   <li>Potential Impact on the Target Audience</li>
-                  <li>Benifits of the Solution (Social, Econimical, Educational, Environmental)</li>
+                  <li>Benifits of the Solution</li>
                 </ul>
                 <div className="card-actions justify-end">
                 <button onClick={() => handleClick('ImpactBenifits')} className="btn btn-neutral">View More</button> 
