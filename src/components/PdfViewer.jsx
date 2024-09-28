@@ -13,7 +13,7 @@ const PdfViewer = () => {
                     <li><a href="/team">PPT</a></li>
                 </ul>
             </div>
-            <div className='w-full h-[100vh] hidden md:block mt-5 mb-5'>
+            <div className='w-full h-[100vh] mt-5 mb-5'>
                 <div className='w-full h-full flex justify-center '>
                     <iframe src={Pdf} width="80%" height="100%" title="PDF Viewer" />
                 </div>
