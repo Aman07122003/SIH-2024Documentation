@@ -23,7 +23,7 @@ const Navbar = () => {
 
             <div className='hidden md:block'>
               <h1 className='text-6xl font-bold text-orange-500'>
-                SMART INDIA <span className='text-green-500'>HACKATHON</span>
+                SMART INDIA <span className='text-green-500'>HACKATHON 2024</span>
               </h1>
             </div>
 
