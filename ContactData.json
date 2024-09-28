@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "image": "../../src/assets/Aman.jpeg",
+        "Name": "Aman Pratap Singh",
+        "Technology": "Full-Stack",
+        "Responsibility": "Team Leader",
+        "Description": "",
+        "Email": "samanpratap219@gmail.com",
+        "Phone": "+91-9351873908",
+        "Linkedin": "",
+        "Github": ""
+    },
+
+    {
+        "id": 2,
+        "image": "../../src/assets/Stuti.jpg",
+        "Name": "Stuti Yadav",
+        "Technology": "Frontend,UI/UX",
+        "Responsibility": "Team Member",
+        "Description": "",
+        "Email": "yadavstuti968@gmail.com",
+        "Phone": "+91-8303082564",
+        "Linkedin": "",
+        "Github": ""
+    },
+
+    {
+        "id": 3,
+        "image": "../../src/assets/Satyam.png",
+        "Name": "Satyam Mishra",
+        "Technology": "Backend",
+        "Responsibility": "Team Member",
+        "Description": "",
+        "Email": "ssmishra9918@gmail.com",
+        "Phone": "+91-9026394865",
+        "Linkedin": "https://www.linkedin.com/in/satyam-mishra-a26155284",
+        "Github": ""
+    },
+
+    {
+        "id": 4,
+        "image": "../../src/assets/Abhishek.png",
+        "Name": "Abhishek Vaishya",
+        "Technology": "Frontend,UI-UX",
+        "Responsibility": "Team Member",
+        "Description": "",
+        "Email": "abhishekvaishya111@gmail.com",
+        "Phone": "+91-752588711",
+        "Linkedin": "",
+        "Github": ""
+    },
+
+    {
+        "id": 5,
+        "image": "../../src/assets/Arif.png",
+        "Name": "Mohd. Arif Ansari",
+        "Technology": "AI/ML",
+        "Responsibility": "Team Member",
+        "Description": "",
+        "Email": "arifquerry@gmail.com",
+        "Phone": "+91-7081168219",
+        "Linkedin": "https://www.linkedin.com/in/arryquerry",
+        "Github": "https://github.com/arry043"
+    },
+
+    {
+        "id": 6,
+        "image": "../../src/assets/Khushi.png",
+        "Name": "Khushi Gupta",
+        "Technology": "Researcher",
+        "Responsibility": "Team Member",
+        "Description": "",
+        "Email": "Khugup3655@gmail.com",
+        "Phone": "+91-9368134615",
+        "Linkedin": "",
+        "Github": "https://github.com/khugup"
+    }
+
+]
