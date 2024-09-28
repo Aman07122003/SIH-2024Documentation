@@ -6,7 +6,16 @@ const Project_Architecture = () => {
   }, []);
   
   return (
-    <div>Project_Architecture</div>
+     <>
+       <div>
+          <div className='h-14 w-full flex justify-center text-3xl font-mono font-bold mt-3'>
+              Project_Architecture
+          </div>
+          <div>
+            
+          </div>
+       </div>
+     </>
   )
 }
 

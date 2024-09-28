@@ -6,9 +6,16 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 import Pdf from '../assets/Pdf.pdf';
+import { useNavigate } from 'react-router-dom';
 
 function PdfViewer() {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
+
+    const navigate = useNavigate();
+
+    const handleClick = (page) => {
+        navigate(`/${page}`)
+    }
 
     return (
         <>

@@ -11,6 +11,7 @@ import ResearchReference from './components/Featured_Slides/ResearchReference';
 import Technical_Approach from './components/Featured_Slides/Technical_Approach';
 import Contact_Us from './components/Contact_Us';
 import PdfViewer from './components/PdfViewer';
+import Diagram from './components/Featured_Slides/Diagram';
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
       <Route path="/Technical_Approach" element={<Technical_Approach />} />
       <Route path="/contact" element={<Contact_Us />} />
       <Route path="/Pdfviewer" element={<PdfViewer />} />
+      <Route path="/Diagram" element={<Diagram/>} />
       
     </Routes>
   );

@@ -1,6 +1,14 @@
 import React from 'react'
+import Diagram from './Featured_Slides/Diagram.jsx'
+import { useNavigate } from 'react-router-dom';
 
 const Section_3 = () => {
+  const navigate = useNavigate();
+ 
+    const handleClick = (page) => {
+        navigate(`/${page}`)
+    };
+
   return (
     <>
       <div className='w-2/6 h-3/5  hidden md:block bg-slate-50 rounded-3xl mr-2'>
@@ -12,7 +20,7 @@ const Section_3 = () => {
                 <div className="h-full w-full flex justify-center items-center flex-col gap-y-3">
                     <h2 className="card-title text-lg">PROJECT ARCHITECTURE</h2>
                     <div className="card-actions justify-center">
-                    <button onClick={() => handleClick('Technical_Approach')} className=" btn btn-neutral">View Page</button>  
+                    <button onClick={() => handleClick('Diagram')} className=" btn btn-neutral">View Diagram</button>  
                     </div>
                   </div>
                 </div>
@@ -20,9 +28,9 @@ const Section_3 = () => {
            <div className='h-2/5 justify-start items-center flex flex-col'>
               <div className="card card-bordered border-black bg-slate-50 shadow-lg w-5/6 h-3/4 mt-5 ">
                 <div className="h-full w-full flex justify-center items-center flex-col gap-y-3">
-                    <h2 className="card-title text-lg">TECHNICAL APPROACH</h2>
+                    <h2 className="card-title text-lg">PROJECT WEBSITE</h2>
                     <div className="card-actions justify-center">
-                    <button onClick={() => handleClick('Technical_Approach')} className=" btn btn-neutral">View Page</button>  
+                    <button onClick={() => handleClick('')} className=" btn btn-neutral">Visit Website</button>  
                     </div>
                   </div>
                 </div>
