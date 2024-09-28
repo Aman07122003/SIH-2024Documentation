@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
+
 import Email from '../assets/Email.png';
 import Linkedin from '../assets/Linkedin.webp';
 import Githubb from '../assets/Githubb.png';
 import Footer from './Footer';
 import { useNavigate } from 'react-router-dom';
+import Page_1 from './Page_1';
 import Aman from '../assets/Aman.jpeg'
 
 const Contact_Us = () => {
@@ -34,7 +36,7 @@ const Contact_Us = () => {
               <figure className="pt-6">
                 <img
                   src={Aman}
-                  alt={item.Name}
+                  alt=""
                   className='w-44 object-cover rounded-full'
                 />
               </figure>
@@ -44,7 +46,7 @@ const Contact_Us = () => {
                 <p className="text-sm text-gray-600">Team Leader</p>
                 <p className="text-sm text-gray-600">Full Stack</p>
                 <div className="card-actions justify-center flex gap-x-3">
-                   <button><a href="https://www.youtube.com/">
+                   <button><a href="">
                       <img src={Email} 
                       alt=""
                       className='h-7 w-7' />
