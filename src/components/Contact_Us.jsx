@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import ContactData from '../../public/ContactData.json';
+import ContactData from '../../ContactData.json';
 import Email from '../assets/Email.png';
 import Linkedin from '../assets/Linkedin.webp';
 import Githubb from '../assets/Githubb.png';
