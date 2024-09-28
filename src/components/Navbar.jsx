@@ -2,7 +2,6 @@ import React from 'react'
 import SIH from '../assets/SIH.png';
 import Ninja_coder from '../assets/Ninja_coder.png'
 import { useNavigate } from 'react-router-dom';
-import Page_1 from './Page_1';
 
 const Navbar = () => {
     const navigate = useNavigate();

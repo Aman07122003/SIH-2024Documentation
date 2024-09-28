@@ -1,5 +1,4 @@
 import React from 'react'
-import Diagram from './Featured_Slides/Diagram.jsx'
 import { useNavigate } from 'react-router-dom';
 
 const Section_3 = () => {

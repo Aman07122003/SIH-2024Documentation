@@ -20,7 +20,7 @@ function PdfViewer() {
     return (
         <>
             <div className='h-[100vh] w-full flex flex-col'>
-                <div className='w-full flex justify-center items-center mt-2 flex flex-col'>
+                <div className='w-full flex justify-center items-center mt-2 flex-col'>
                     <h1 className='text-3xl font-bold font-mono'>
                         Presentation
                     </h1>
