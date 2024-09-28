@@ -4,7 +4,7 @@ import SS from '../assets/SS.png'
 const FlowDiagram = () => {
   return (
     <div>
-        <div className='flex justify-center text-2xl font-mono font-bold mt-5 md:mt-0'>
+        <div className='flex justify-center text-2xl font-mono font-bold mt-0'>
             Technical Flow Diagram
         </div>
         <div className='mt-5'>
