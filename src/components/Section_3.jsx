@@ -29,7 +29,7 @@ const Section_3 = () => {
                 <div className="h-full w-full flex justify-center items-center flex-col gap-y-3">
                     <h2 className="card-title text-lg">PROJECT WEBSITE</h2>
                     <div className="card-actions justify-center">
-                    <button onClick={() => handleClick('')} className=" btn btn-neutral">Visit Website</button>  
+                    <button className=" btn btn-neutral">Visit Website</button>  
                     </div>
                   </div>
                 </div>
