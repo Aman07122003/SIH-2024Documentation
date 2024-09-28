@@ -1,5 +1,11 @@
 import React from 'react';
 import Pdf from '../assets/Pdf.pdf'; // Adjust the path to your PDF file
+import First from '../assets/First.jpg'
+import Second from '../assets/Second.jpg'
+import Three from '../assets/Three.jpg'
+import Four from '../assets/Four.jpg'
+import Five from '../assets/Five.jpg'
+import Six from '../assets/Six.jpg'
 
 const PdfViewer = () => {
     return (
@@ -13,10 +19,31 @@ const PdfViewer = () => {
                     <li><a href="/team">PPT</a></li>
                 </ul>
             </div>
-            <div className='w-full h-[100vh] mt-5 mb-5'>
+            <div className='w-full h-[100vh] mt-5 mb-5 hidden md:block'>
                 <div className='w-full h-full flex justify-center '>
                     <iframe src={Pdf} width="80%" height="100%" title="PDF Viewer" />
                 </div>
+            </div>
+            <div className='mt-5 w-full block md:hidden'>
+                <div>
+                    <img src={First} alt="" className='mt-2' />
+                </div>
+                <div>
+                    <img src={Second} alt="" className='mt-2'/>
+                </div>
+                <div>
+                    <img src={Three} alt="" className='mt-2'/>
+                </div>
+                <div>
+                    <img src={Four} alt="" className='mt-2'/>
+                </div>
+                <div>
+                    <img src={Five} alt="" className='mt-2'/>
+                </div>
+                <div>
+                    <img src={Six} alt="" className='mt-2'/>
+                </div>
+            
             </div>
         </div>
     );
