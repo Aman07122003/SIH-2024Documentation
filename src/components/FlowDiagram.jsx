@@ -1,8 +1,14 @@
 import React from 'react'
 import SS from '../assets/SS.png'
 import Section_3 from './Section_3'
+import { useNavigate } from 'react-router-dom';
 
 const FlowDiagram = () => {
+  const navigate = useNavigate();
+ 
+    const handleClick = (page) => {
+        navigate(`/${page}`)
+    };
   return (
     <div>
         <div className='flex justify-center text-2xl md:text-4xl font-mono font-bold mt-14'>
