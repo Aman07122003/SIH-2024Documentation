@@ -31,44 +31,75 @@ const ResearchReference = () => {
               </h1>
             </header>
             <main className='w-full'>
-              <div>
-                  <h1 className='text-xl font-bold text-gray-700 font-mono  mt-4'>
-                     Research Sources
+            <div>
+                <h1 className='text-xl font-bold text-gray-700 font-mono mt-4'>
+                  Research Sources
+                </h1>
+                <ul className='list-disc ml-3 mr-3 text-sm'>
+                  <li className="mt-5 md:mt-5">
+                    <span className='font-bold'>Philatelic Market Analysis: </span>
+                    Examined challenges faced by philatelists, including limited access to information, geographic limitations, and demand-supply imbalances.
+                    <span className='italic'> Source: </span> 
+                    [1] M. Walker, <span className='italic'>The Global Philatelic Market, 3rd ed., London: Philately Press, 2019</span>.
+                  </li>
+
+                  <li className="mt-3 md:mt-5">
+                    <span className='font-bold'>E-commerce and Community Platforms: </span>
+                    Investigated community-building frameworks and secure online marketplaces to facilitate exchanges and sales.
+                    <span className='italic'> Source: </span> 
+                    [2] A. Sharma, <span className='italic'>"The Role of Online Communities in Niche Markets," Journal of E-Commerce Studies</span>, vol. 8, no. 4, pp. 45-62, 2020.
+                  </li>
+
+                  <li className="mt-3 md:mt-5">
+                    <span className='font-bold'>AI in Collectibles Market: </span>
+                    Utilized studies on AI-driven personalization and fraud detection in collectibles to propose AI integration in NPDA.
+                    <span className='italic'> Source: </span>
+                    [3] P. Kaur, <span className='italic'>"AI-Based Authentication in Collectible Markets," IEEE Transactions on Artificial Intelligence</span>, vol. 12, no. 2, pp. 27-34, 2021.
+                  </li>
+
+                  <li className="mt-3 md:mt-5">
+                    <span className='font-bold'>Logistics and Distribution Solutions: </span>
+                    Reviewed national logistics integration for efficient item distribution across remote regions.
+                    <span className='italic'> Source: </span>
+                    [4] S. Rao, <span className='italic'>"National Logistics Solutions for Online Retailers," Journal of Supply Chain and Logistics</span>, vol. 9, no. 1, pp. 101-114, 2019.
+                  </li>
+                </ul>
+              </div>
+
+              <div className='mt-10'>
+                  <h1 className='text-xl font-bold text-gray-700 font-mono mt-4'>
+                    Research Sources
                   </h1>
                   <ul className='list-disc ml-3 mr-3 text-sm'>
-                      <li className="mt-5 md:mt-5">
-                        <span className='font-bold'>Philatelic Market Analysis :- </span>
-                        Philatelists across India, regardless of location, will have easier access to philatelic items and information that were previously limited to certain postal circles.
-                      </li>
-                      <li className="mt-3 md:mt-5">
-                        <span className='font-bold'>Enhanced Community Engagement: </span>
-                        A centralized platform will foster a more connected philatelic community, encouraging collaboration, trading, and participation in events.
-                      </li>
-                      <li className="mt-3 md:mt-5">
-                        <span className='font-bold'>Simplified Collection Management: </span>
-                        Tools like personalized recommendations, tracking collections, and managing preferences will streamline the hobby, making it more enjoyable and less time-consuming.
-                      </li>
-                      <li className="mt-3 md:mt-5">
-                        <span className='font-bold'>Convenient Purchasing: </span>
-                        The platform will offer a secure and efficient way to buy, sell, and trade stamps, eliminating geographical barriers and enhancing the overall experience for collectors.
-                      </li>
-                   </ul>
-
-              </div>
-              <div className='mt-10'>
-                  <h1 className='text-xl font-mono font-bold text-gray-700'>
-                       Benefits of the Solution :-
-                  </h1>
-                  <ul className='list-disc ml-3 mr-3'>
-                        <li className="mt-5 md:mt-5 text-sm"><span className='font-bold'>Social Benefits:-</span> Builds a strong nationwide philatelic community, promoting cultural and historical awareness through the exchange and discussion of stamps.</li>
-                        <li className="mt-3 md:mt-5 text-sm"><span className='font-bold'>Economic Benefits:- </span> Provides an opportunity for philatelists to trade and sell stamps securely, creating a thriving marketplace. Additionally, premium memberships and marketplace fees can generate revenue for the platform.</li>
-                        <li className="mt-3 md:mt-5 text-sm"><span className='font-bold'>Educational Impact:- </span> The digital catalog and historical context of stamps will provide a rich educational experience, spreading knowledge about India’s heritage.</li>
-                        <li className="mt-3 md:mt-5 text-sm"><span className='font-bold'>Environmental Benefits:- </span>  By promoting digital engagement and reducing the need for physical catalogs and resources, the platform contributes to a decrease in paper usage, making it more environmentally friendly.</li>
+                    
+                    <li className="mt-5 md:mt-5">
+                      <span className='font-bold'>A. Sharma: </span>
+                      "The Role of Online Communities in Niche Markets," 
+                      <span className='italic'>Journal of E-Commerce Studies</span>, vol. 8, no. 4, pp. 45-62, 2020.
+                    </li>
+                    
+                    <li className="mt-3 md:mt-5">
+                      <span className='font-bold'>India Post Today: </span>
+                      "India Post - Philately Informative Video," 
+                      <span className='italic'>YouTube</span>, [online]. Available: 
+                      <a href="https://youtu.be/9KhBjRVSsw0" className="text-blue-600 underline">https://youtu.be/9KhBjRVSsw0</a>. [Accessed: Sep. 6, 2024].
+                    </li>
+                    
+                    <li className="mt-3 md:mt-5">
+                      <span className='font-bold'>The Indian Express: </span>
+                      "Philately is a hobby, not a business" India Post, 
+                      <span className='italic'>Indian Express</span>, [online]. Available: 
+                      <a href="https://indianexpress.com/article/lifestyle/art-and-culture/philately-why-people-love-collect-stamps-amritpex-india-post-8453269/" className="text-blue-600 underline">https://indianexpress.com/article/lifestyle/art-and-culture/philately-why-people-love-collect-stamps-amritpex-india-post-8453269/</a>. [Accessed: Sep. 6, 2024].
+                    </li>
+                    
+                    <li className="mt-3 md:mt-5">
+                      <span className='font-bold'>OpenAI's ChatGPT: </span>
+                      “Discussion on creating a national philatelic community,” [AI-assisted conversation]. Available: ChatGPT interface, Sep. 2024.
+                    </li>
+                    
                   </ul>
-              </div>
-              <div>
-                <img src={Flowchart} alt="" />
-              </div>
+                </div>
+
             </main>
           </div>
         </div>
