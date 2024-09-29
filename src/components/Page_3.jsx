@@ -13,7 +13,7 @@ const Page_3 = () => {
         {/* YouTube iframe */}
         <div className='flex justify-center mt-10 md:h-4/6 h-4/6 w-full '>
           <iframe 
-              className='w-11/12 md:w-9/12 rounded-xl' 
+              className='w-11/12 md:w-9/12 rounded-xl ' 
               src="https://www.youtube.com/embed/GJ1_YwwKfg0" 
               title="YouTube video player" 
               style={{ border: 'none' }} 
