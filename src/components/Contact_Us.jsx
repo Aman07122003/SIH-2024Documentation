@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import Email from '../assets/Email.png';
 import Linkedin from '../assets/Linkedin.webp';
 import Githubb from '../assets/Githubb.png';
