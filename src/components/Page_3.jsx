@@ -3,7 +3,7 @@ import React from 'react';
 const Page_3 = () => {
   return (
     <>
-      <div className='h-[90vh] w-full mt-16 md:mt-2'>
+      <div className='h-[100vh] w-full mt-16 md:mt-2'>
         <div className='h-10 w-full flex justify-center items-center'>
           <h1 className='text-2xl md:text-4xl font-extrabold font-mono'>
             Video Explanation
@@ -11,7 +11,7 @@ const Page_3 = () => {
         </div>
 
         {/* YouTube iframe */}
-        <div className='flex justify-center mt-10 md:h-5/6 h-3/5 w-full '>
+        <div className='flex justify-center mt-10 md:h-4/6 h-4/6 w-full '>
           <iframe 
               className='w-11/12 md:w-9/12 rounded-xl' 
               src="https://www.youtube.com/embed/-IhCM2YfAWI" 
