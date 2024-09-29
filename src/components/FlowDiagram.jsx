@@ -5,7 +5,7 @@ import Section_3 from './Section_3'
 const FlowDiagram = () => {
   return (
     <div>
-        <div className='flex justify-center text-2xl md:text-4xl font-mono font-bold mt-0'>
+        <div className='flex justify-center text-2xl md:text-4xl font-mono font-bold mt-14'>
             Technical Flow Diagram
         </div>
         <div className='mt-12 flex justify-center'>
