@@ -71,7 +71,7 @@ const Idea_Title = () => {
                         <li className="mt-3">Augmented Reality (AR) Stamp Viewing</li>
                         <li className="mt-3">Philately Challenges & Quests for gamified experiences</li>
                         <li className="mt-3">Live auctions or real-time trading rooms</li>
-                        <li className="mt-3">NFT stamps—virtual stamps</li>
+                        <li className="mt-3">NFT stamps—virtual stamps.</li>
                         <li className="mt-3">Premium Membership Plans.</li>
                   </ul>
               </div>
