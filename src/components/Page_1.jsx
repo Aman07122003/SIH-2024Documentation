@@ -71,8 +71,8 @@ const Page_1 = () => {
             </div>
             
         </div>
-        <div className=' w-full flex justify-center items-start mt-24 md:mt-2'>
-          <h1 className='text-2xl font-extrabold font-mono'>Featured Slides</h1>
+        <div className=' w-full flex justify-center items-start mt-10 md:mt-2'>
+          <h1 className='md:text-4xl text-2xl font-extrabold font-mono'>Featured Slides</h1>
         </div>
       </div>
       <div className='mt-10'>
